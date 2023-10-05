@@ -14,16 +14,16 @@
   -->
   <header>
     <h1>About Me</h1>
-    <img src="giants.jpg" alt="lotte">
   </header>
   
   <main>
-    <section id="section1">
+    <section>
+      <img src="../../images/giants.jpg" alt="giants">
       <h2>John Doe</h2>
       <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
     </section>
   
-    <section id="section2">
+    <section>
       <h2>Education & Work Experience</h2>
       <ul>
         <li>MSc in Computer Science, XYZ University, 2018-2020</li>
@@ -31,7 +31,7 @@
       </ul>
     </section>
   
-    <section id="section3">
+    <section>
       <h2>Certifications & Awards</h2>
       <ol type="A">
         <li>Certified Python Developer, 2019</li>
@@ -39,17 +39,20 @@
       </ol>
     </section>
     
-    <section id="section4">
+    <section>
       <h2>Contact Form</h2>
-      <form action="">
+      <form>
         <fieldset>
           <legend>Your Information</legend>
-          <label for="userName">Name:</label> <br />
-          <input type="text" name="" id="userName" required placeholder="Enter your name"> <br />
-          <label for="userEmail">Email:</label> <br />
-          <input type="email" name="" id="userEmail" required placeholder="Enter your email"> <br />
-          <label for="userMsg">Message:</label> <br />
-          <textarea name="" id="userMsg" cols="80" rows="4" required placeholder="Enter your message"></textarea> <br />
+          <label for="userName">Name:</label>
+          <input type="text" name="" id="userName" placeholder="Enter your name" required />
+          <br />
+          <label for="userEmail">Email:</label>
+          <input type="email" name="" id="userEmail" placeholder="Enter your email" required />
+          <br />
+          <label for="userMessage">Message:</label>
+          <textarea id="userMessage" name="userMessage" cols="80" rows="4" placeholder="Enter your message" required></textarea>
+          <br />
           <button type="submit">Submit</button>
         </fieldset>
       </form>
