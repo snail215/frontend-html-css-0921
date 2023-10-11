@@ -29,11 +29,26 @@ ul {
   color: brown;
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
   margin: 8px;
-  text-transform: uppercase;
+  text-transform: uppercase;  
 }
 
 a {
-  color: violet;
+  color: purple;
+  font-size: 16px;
+  text-decoration: none;
+  letter-spacing: 0.8px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px black;
+}
 
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: gray;
 }
