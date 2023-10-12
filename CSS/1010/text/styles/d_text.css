@@ -41,7 +41,7 @@ button {
   text-shadow: 1px 1px 10px #000000;
 }
 
-/* text-transform 텍스트 변형 */
+/* text-transform 대소문자 텍스트 변형 */
 .capitalize {
   text-transform: capitalize;
 }
@@ -61,4 +61,16 @@ button {
 
 .word-spacing {
   word-spacing: 8px;
+}
+
+/* text-indent 들여쓰기 */
+p {
+  text-indent: 30px;
+}
+
+/* overflow 넘치는 텍스트 */
+.overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
