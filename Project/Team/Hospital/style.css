@@ -1,0 +1,677 @@
+/* 공통 너비값 */
+.body_width {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* 공통 배경색 */
+/* .back_c {
+  background-color: #eeeeee;
+} */
+
+
+/* 헤더 영역 */
+header {
+  background-color: white;
+}
+
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.home {
+  position: absolute;
+  width: 240px;
+  height: 25px;
+  margin-left: 400px;
+  
+}
+
+.home > img {
+  position: absolute;
+  clip: rect(0, 240px, 25px, 0);
+  
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: 0 7px;
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+.menu_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_img, .search_img {
+  padding: 15px 0;
+}
+
+nav > ul > li {
+  margin: 0 35px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+/* 배너 영역 */
+.banner_width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner_width > img {
+  margin-left: 200px;
+}
+
+/* 메인 영역 */
+.content01 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0 0;
+  letter-spacing: -1px;
+}
+
+/* 진료예약 */
+.appointment_wrap {
+  background-color: #008ace;
+  color: white;
+  width: 260px;
+  height: 250px;
+}
+
+.appointment_text_wrap {
+  margin: 30px 30px 50px;
+}
+
+.appointment_text_tatle {
+  margin-bottom: 25px;
+}
+
+.appointment_text {
+  line-height: 25px;
+}
+
+.appointment_link_box {
+  display: table;
+  border-collapse: collapse;
+  width: 200px;
+  height: 40px;
+  margin: 30px;
+  font-size: 14px;
+}
+
+.appointment_box {
+  display: table-cell;
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px;
+}
+
+.appointment_box > p {
+  margin: 0;
+}
+
+/* 진료과/센터 */
+.medical_wrap {
+  background-color: #2763ba;
+  color: white;
+  width: 260px;
+  height: 250px;
+}
+
+.medical_text_wrap {
+  margin: 30px 30px 50px;
+}
+
+.medical_text_tatle {
+  margin-bottom: 25px;
+}
+
+.medical_text {
+  line-height: 25px;
+}
+
+.medical_link_box {
+  display: table;
+  border-collapse: collapse;
+  width: 200px;
+  height: 40px;
+  margin: 30px;
+  font-size: 14px;
+}
+
+.medical_box {
+  display: table-cell;
+  border: 1px solid white;
+  text-align: center;
+  padding: 8px;
+}
+
+.medical_box > p {
+  margin: 0;
+}
+
+/* 진료안내 */
+.medical_guide_wrap {
+  background-color: #2ca48f;
+  color: white;
+  width: 260px;
+  height: 250px;
+}
+
+.medical_guide_text_wrap {
+  margin: 30px;
+}
+
+.medical_guide_text_tatle {
+  margin-bottom: 25px;
+}
+
+.medical_guide_text {
+  line-height: 35px;
+}
+
+.medical_guide_link_box {
+  display: table;
+  border-collapse: collapse;
+  width: 200px;
+  height: 40px;
+  margin: 30px;
+  font-size: 14px;
+}
+
+.medical_guide_box {
+  display: table-cell;
+  border: 1px solid white;
+  text-align: center;
+  padding: 8px;
+}
+
+.medical_guide_box > p {
+  margin: 0;
+}
+
+/* 로그인 */
+.login_wrap {
+  border: 1px solid #2263bb;
+  width: 260px;
+  height: 250px;
+  letter-spacing: -1px;
+}
+
+.login_box {
+  margin: 30px;
+}
+
+.login_tatle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.login_tatle > h3 {
+  margin: 0;
+}
+
+.login_id_password > input {
+  width: 178px;
+  border: 1px solid #dddddd;
+  color: #dddddd;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.login_signup_find {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.login_button {
+  background-color: #2263bb;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  width: 100%;
+  border: 0;
+  font-size: 15px;
+}
+
+/* 두번째 콘텐츠 영역 */
+.content02 {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 0;
+  letter-spacing: -1px;
+}
+
+/* 의료진 찾기 */
+.finding_medical_staff_wrap {
+  background-image: url(imgs/find_img.jpg);
+  width: 540px;
+  height: 250px;
+}
+
+.finding_medical_staff {
+  margin: 30px;
+}
+
+.finding_medical_staff_tatle {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.finding_medical_staff_text {
+  line-height: 25px;
+}
+
+.finding_medical_staff_search_box {
+  display: flex;
+}
+
+.search_medical_staff_search {
+  border: 1px solid #2263bb;
+  color: #dddddd;
+  width: 200px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.finding_medical_staff_button {
+  background-color: #2263bb;
+  color: white;
+  width: 80px;
+  height: 40px;
+  border: 0;
+  font-size: 15px;
+}
+
+/* 소식 영역 */
+.news_wrap {
+  background-color: lightcoral;
+  width: 540px;
+  height: 250px;
+}
+
+.news {
+  background-color: rgb(240, 182, 128);
+  margin: 30px;
+  height: 150px;
+}
+
+.news_category {
+  background-color: rgb(238, 240, 128);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news_li {
+  background-color: rgb(163, 240, 128);
+
+}
+
+.news_li > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.news_li > ul > li {
+  font-size: 18px;
+  
+}
+
+.news_more {
+  background-color: rgb(128, 204, 240);
+  border: 1px solid #777777;
+  width: 22px;
+  height: 22px;
+}
+
+.news_more > p {
+  color: #2263bb;
+  font-size: 23px;
+  font-weight: 900;
+  line-height: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+.news_content {
+  display: flex;
+  background-color: rgb(208, 128, 240);
+  flex-direction: column;
+}
+
+
+
+
+
+.content03 {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 0;
+  letter-spacing: -1px;
+}
+
+.b {
+  background-color: lightsalmon;
+  width: 540px;
+  height: 250px;
+}
+
+/* 위임장/동의서/증명서 */
+.issuance_wrap {
+  background-color: #3298b7;
+  color: white;
+  width: 260px;
+  height: 250px;
+}
+
+.issuance_text_wrap {
+  margin: 30px 30px;
+}
+
+.issuance_text_tatle {
+  margin-bottom: 25px;
+}
+
+.issuance_text {
+  line-height: 25px;
+}
+
+.issuance_link_box {
+  display: table;
+  border-collapse: collapse;
+  width: 200px;
+  height: 40px;
+  margin: 30px;
+  font-size: 14px;
+}
+
+.issuance_box {
+  display: table-cell;
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px;
+}
+
+.issuance_box > p {
+  margin: 0;
+}
+
+/* 고객의 소리 */
+.suggestions_wrap {
+  background-color: #627ad0;
+  color: white;
+  width: 260px;
+  height: 250px;
+}
+
+.suggestions_text_wrap {
+  margin: 30px 30px;
+}
+
+.suggestions_text_tatle {
+  margin-bottom: 25px;
+}
+
+.suggestions_text {
+  line-height: 25px;
+}
+
+.suggestions_link_box {
+  display: table;
+  border-collapse: collapse;
+  width: 200px;
+  height: 40px;
+  margin: 30px;
+  font-size: 14px;
+}
+
+.suggestions_box {
+  display: table-cell;
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px;
+}
+
+.suggestions_box > p {
+  margin: 0;
+}
+
+
+
+
+
+
+
+.d {
+  background-color: lightgreen;
+  width: 260px;
+  height: 250px;
+}
+
+
+.aa {
+  background-color: #008ace;
+  /* color: white; */
+  width: 260px;
+  height: 350px;
+}
+
+.aa1 {
+  background-color: #008ace;
+  /* color: white; */
+  width: 260px;
+  height: 250px;
+}
+
+
+.content05 {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 0;
+  letter-spacing: -1px;
+}
+
+/* 공공부문 */
+.public_sector_wrap {
+  background-color: #627ad0;
+  color: white;
+  width: 260px;
+  height: 250px;
+}
+
+.public_sector_text_wrap {
+  margin: 30px;
+}
+
+.public_sector_text_tatle {
+  margin-bottom: 25px;
+}
+
+.public_sector_text {
+  line-height: 25px;
+}
+
+.public_sector_link_box {
+  display: table;
+  border-collapse: collapse;
+  width: 200px;
+  height: 40px;
+  margin: 30px;
+  font-size: 14px;
+}
+
+.public_sector_box {
+  display: table-cell;
+  border: 1px solid white;
+  text-align: center;
+  padding: 8px;
+}
+
+.public_sector_box > p {
+  margin: 0;
+}
+
+/* 건강증진센터 */
+.health_promotion_wrap {
+  background-color: #2ca48f;
+  color: white;
+  width: 260px;
+  height: 250px;
+}
+
+.health_promotion_text_wrap {
+  margin: 30px 30px 50px;
+}
+
+.health_promotion_text_tatle {
+  margin-bottom: 25px;
+}
+
+.health_promotion_text {
+  line-height: 25px;
+}
+
+.health_promotion_link_box {
+  display: table;
+  border-collapse: collapse;
+  width: 200px;
+  height: 40px;
+  margin: 30px;
+  font-size: 14px;
+}
+
+.health_promotion_box {
+  display: table-cell;
+  border: 1px solid white;
+  text-align: center;
+  padding: 8px;
+}
+
+.health_promotion_box > p {
+  margin: 0;
+}
+
+
+/* 발전후원회 */
+.sponsor_wrap {
+  background-color: #2ca48f;
+  color: white;
+  width: 260px;
+  height: 250px;
+}
+
+.sponsor_text_wrap {
+  margin: 30px 30px 50px;
+}
+
+.sponsor_text_tatle {
+  margin-bottom: 25px;
+}
+
+.sponsor_text {
+  line-height: 25px;
+}
+
+.sponsor_link_box {
+  display: table;
+  border-collapse: collapse;
+  width: 200px;
+  height: 40px;
+  margin: 30px;
+  font-size: 14px;
+}
+
+.sponsor_box {
+  display: table-cell;
+  border: 1px solid white;
+  text-align: center;
+  padding: 8px;
+}
+
+.sponsor_box > p {
+  margin: 0;
+}
+
+/* 진료협력센터 */
+.cooperation_wrap {
+  background-color: #3298b7;
+  color: white;
+  width: 260px;
+  height: 250px;
+}
+
+.cooperation_text_wrap {
+  margin: 30px 30px 50px;
+}
+
+.cooperation_text_tatle {
+  margin-bottom: 25px;
+}
+
+.cooperation_text {
+  line-height: 25px;
+}
+
+.cooperation_link_box {
+  display: table;
+  border-collapse: collapse;
+  width: 200px;
+  height: 40px;
+  margin: 30px;
+  font-size: 14px;
+}
+
+.cooperation_box {
+  display: table-cell;
+  border: 1px solid white;
+  text-align: center;
+  padding: 8px;
+}
+
+.cooperation_box > p {
+  margin: 0;
+}
+
+
+
+
+
+.map_wrap {
+  background-color: lightblue;
+  height: 600px;
+}
+
+.footer {
+  background-color: lightgoldenrodyellow;
+  height: 300px;
+}
