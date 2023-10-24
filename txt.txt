@@ -1,0 +1,15 @@
+확장프로그램 다운
+
+vscode-icons
+
+Auto Rename Tag
+
+Better Comments
+
+Color Highlight
+
+indent-rainbow
+
+Korean Language Pack for Visual Studio Code
+
+Live Server
