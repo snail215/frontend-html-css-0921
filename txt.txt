@@ -13,3 +13,12 @@ indent-rainbow
 Korean Language Pack for Visual Studio Code
 
 Live Server
+
+-----------------
+10/26
+
+1024에 transform 파일 추가
+
+1026에 id class 축약어 예시 추가
+
+유튜브 클론코딩 레이아웃 잡기
