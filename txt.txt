@@ -14,6 +14,13 @@ Korean Language Pack for Visual Studio Code
 
 Live Server
 
+자바용
+JavaScript (ES6) code snippets
+
+-----------------
+노션에 프로필, 다운로드 및 기타 용어 정리
+
+
 -----------------
 10/26
 
@@ -22,3 +29,8 @@ Live Server
 1026에 id class 축약어 예시 추가
 
 유튜브 클론코딩 레이아웃 잡기
+
+-----------------
+11/02
+
+js폴더 1102 a_~_js파일 수정
